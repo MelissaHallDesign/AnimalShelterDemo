@@ -3,10 +3,28 @@ body {
 }
 h1 {
     color: #82735c;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Underdog', cursive;
     font-size: 60px;
-    
+    text-align: center;
 }
 h2 {
     color: #a8c686;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+nav ul {
+    background-color: #f0f66e;
+    color: #82735c;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
 }
